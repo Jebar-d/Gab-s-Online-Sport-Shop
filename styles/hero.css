@@ -34,7 +34,7 @@
       object-fit: cover;
     }
   }
-  
+
 .hero h1 {
     color: #193541;
     font-size: 3rem;
@@ -50,6 +50,10 @@
 
 .hehe{
     position: center;
+    background: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .hehe button {

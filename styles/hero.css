@@ -23,6 +23,19 @@
     display: block;
     object-fit: cover; 
   }
+  
+  @media (max-width: 481px) {
+    .hero {
+      height: 300px; 
+    }
+  
+    .hero__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  
   @media (max-width: 768px) {
     .hero {
       height: 300px; 

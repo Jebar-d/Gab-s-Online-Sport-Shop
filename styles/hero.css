@@ -59,7 +59,7 @@
     margin-bottom: 1.5rem;
 }
 
-.hero button {
+.hehe button {
     position: center;
     padding: 1rem 2rem;
     font-size: 1rem;
@@ -82,7 +82,7 @@
     transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
-.hero button:hover {
+.hehe button:hover {
     background-color: #c3373a;
     transform: scale(1.1);
 }

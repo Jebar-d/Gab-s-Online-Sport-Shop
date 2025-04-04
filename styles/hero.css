@@ -1,16 +1,5 @@
-
-@media (max-width: 768px) {
-    .hero {
-        background-image: none !important;
-        background-color: #f9f9f9;
-      }
-    }
   
 .hero {
-    background: url('hero.bg.JPG');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 80vh;
     display: flex;
     flex-direction: column;

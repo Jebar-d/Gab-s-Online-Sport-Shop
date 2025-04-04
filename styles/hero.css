@@ -3,9 +3,6 @@
     height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    text-align: left;
     flex-wrap: wrap;
 }
 

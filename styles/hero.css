@@ -26,14 +26,14 @@
 
   @media (max-width: 768px) {
     .hero {
-      height: 100px; 
+      height: 120px; 
       width: 768px;
     }
   }
 
   @media (max-width: 480px) {
     .hero {
-      height: 40px; 
+      height: 68px; 
       width: 480px;
     }
   }

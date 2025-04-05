@@ -8,10 +8,10 @@ import '/styles/footer.css'
 import '/styles/mobile-nav.css'
 
 import mobileNav from './utils/mobile-nav'
-import scrollBar from './utils/scrollbar'
+import scrollbar from './utils/scrollbar'
 import manutab from './utils/menutab'
 
 mobileNav();
-scrollBar();
+scrollbar();
 manutab();
 

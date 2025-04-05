@@ -10,8 +10,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: all 0.3s ease-in-out;
   }
-  
+
+  .mobile-nav.active {
+    display: block;
+  }
+
   .mobile-nav__menu {
     list-style: none;
     padding: 0;
@@ -37,4 +42,36 @@
   
   .mobile-nav__btn {
     font-size: 0.875rem;
+  }
+
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .header__bars {
+      display: block;
+    }
+  
+    .mobile-nav__menu {
+      list-style: none;
+      padding: 20px;
+    }
+  
+    .mobile-nav__link {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: black;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .mobile-nav {
+      display: none !important;
+    }
+  
+    .header__bars {
+      display: none;
+    }
   }

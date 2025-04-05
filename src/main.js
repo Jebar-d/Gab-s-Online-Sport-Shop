@@ -7,10 +7,10 @@ import '/styles/contact.css'
 import '/styles/footer.css'
 import '/styles/mobile-nav.css'
 
-import manutab from './utils/menutab'
+import menutab from './utils/menutab'
 import mobileNav from './utils/mobile-nav'
 
-manutab();
+menutab();
 mobileNav();
 
 let lastScrollTop = 0;

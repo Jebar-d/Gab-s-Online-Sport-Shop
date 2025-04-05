@@ -7,6 +7,8 @@ import '/styles/contact.css'
 import '/styles/footer.css'
 import '/styles/mobile-nav.css'
 
+import mobileNav from './utils/mobile-nav';
+
 let lastScrollTop = 0;
 const header = document.querySelector("header");
 

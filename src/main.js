@@ -9,7 +9,7 @@ import '/styles/mobile-nav.css'
 
 import mobileNav from './utils/mobile-nav'
 import scrollBar from './utils/scrollbar.js'
-import scrollBar from './utils/menutab.js'
+import manutab from './utils/menutab.js'
 
 mobileNav();
 scrollBar();

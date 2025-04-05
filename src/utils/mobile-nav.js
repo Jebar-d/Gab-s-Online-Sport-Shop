@@ -25,5 +25,15 @@ const mobileNav = () => {
       });
     });
   };
+
+  export default function mobileNav() {
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileNav = document.querySelector('.mobile-nav');
   
-  export default mobileNav;
+    if (!menuToggle || !mobileNav) return;
+  
+    menuToggle.addEventListener('click', () => {
+      mobileNav.classList.toggle('active');
+    });
+  }
+  

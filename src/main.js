@@ -7,10 +7,8 @@ import '/styles/contact.css'
 import '/styles/footer.css'
 import '/styles/mobile-nav.css'
 
-import menutab from './utils/menutab'
 import mobileNav from './utils/mobile-nav'
 
-menutab();
 mobileNav();
 
 let lastScrollTop = 0;
@@ -74,3 +72,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         smoothScroll(this.getAttribute("href"), 800);
     });
 });
+

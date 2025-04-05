@@ -7,11 +7,11 @@ import '/styles/contact.css'
 import '/styles/footer.css'
 import '/styles/mobile-nav.css'
 
-import mobileNav from './utils/mobile-nav'
 import manutab from './utils/menutab'
+import mobileNav from './utils/mobile-nav'
 
-mobileNav();
 manutab();
+mobileNav();
 
 let lastScrollTop = 0;
 const header = document.querySelector("header");
